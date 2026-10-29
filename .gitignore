@@ -1,0 +1,56 @@
+# Deny all unreviewed files, including footage, exports, archives, runtimes and credentials.
+*
+!*/
+!/.gitattributes
+!/.githooks/pre-commit
+!/.githooks/pre-push
+!/.github/workflows/privacy.yml
+!/.gitignore
+!/AGENTS.md
+!/README.md
+!/outputs/EXTRACT PERSON.cmd
+!/outputs/OPEN VFX SHOWCASE.cmd
+!/outputs/PersonMatte-Mac-AppleSilicon/CHECK THIS MAC.command
+!/outputs/PersonMatte-Mac-AppleSilicon/EXTRACT PERSON.command
+!/outputs/PersonMatte-Mac-AppleSilicon/README.txt
+!/outputs/PersonMatte-Mac-AppleSilicon/VALIDATION.txt
+!/outputs/PersonMatte-Mac-AppleSilicon/licenses/RVM-LICENSE.txt
+!/outputs/PersonMatte-Mac-AppleSilicon/licenses/THIRD-PARTY.txt
+!/outputs/PersonMatte-Mac-AppleSilicon/models/rvm_mobilenetv3_fp32.onnx
+!/outputs/PersonMatte-Mac-AppleSilicon/person_matte.py
+!/outputs/PersonMatte-Windows/CHECK THIS PC.cmd
+!/outputs/PersonMatte-Windows/EXTRACT - CPU FALLBACK.cmd
+!/outputs/PersonMatte-Windows/EXTRACT PERSON.cmd
+!/outputs/PersonMatte-Windows/README.txt
+!/outputs/PersonMatte-Windows/VALIDATION.txt
+!/outputs/PersonMatte-Windows/licenses/FFmpeg-GPL.txt
+!/outputs/PersonMatte-Windows/licenses/FFmpeg-build.txt
+!/outputs/PersonMatte-Windows/licenses/ONNX-Runtime-LICENSE.txt
+!/outputs/PersonMatte-Windows/licenses/ONNX-ThirdPartyNotices.txt
+!/outputs/PersonMatte-Windows/licenses/RVM-LICENSE.txt
+!/outputs/PersonMatte-Windows/licenses/THIRD-PARTY.txt
+!/outputs/PersonMatte-Windows/models/rvm_mobilenetv3_fp32.onnx
+!/outputs/PersonMatte-Windows/person_matte.py
+!/outputs/PersonMatte/AGENTS.md
+!/outputs/PersonMatte/EXTRACT PERSON.cmd
+!/outputs/PersonMatte/SHOWCASE.html
+!/outputs/PersonMatte/depth-showcase/asset-provenance.txt
+!/outputs/PersonMatte/depth-showcase/depth-room-neon-prompt.txt
+!/outputs/PersonMatte/depth-showcase/depth-room-neon-v1.png
+!/outputs/PersonMatte/depth-showcase/depth-room.png
+!/outputs/PersonMatte/depth-showcase/imagegen-prompt.txt
+!/outputs/PersonMatte/models/RVM-LICENSE.txt
+!/outputs/PersonMatte/models/rvm_mobilenetv3_fp32.torchscript
+!/outputs/PersonMatte/person_matte.py
+!/privacy-allowlist.json
+!/tools/privacy_guard.py
+!/work/build_breakdown.py
+!/work/mac-downloads/ffmpeg-lgpl.json
+!/work/mac-downloads/python-assets.json
+!/work/package_mac.py
+!/work/package_portable.py
+!/work/privacy_packaging.py
+!/work/render_depth_bts.py
+!/work/render_neon_centered.py
+!/work/repackage_private.py
+!/work/test_mac_engine.py

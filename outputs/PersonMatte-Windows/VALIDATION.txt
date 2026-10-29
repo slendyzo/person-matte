@@ -1,0 +1,16 @@
+Build validation - 28 October 2026
+---------------------------------
+Windows x64 / NVIDIA RTX 5090.
+Bundled embedded Python + ONNX Runtime DirectML, no external Python imports.
+
+GPU inference and FFmpeg self-check: passed.
+GPU full-resolution video test: 2702 x 1520, 24 fps, 240 frames, exactly 10 s.
+Full test render: 19.9 seconds on this machine (not a guarantee for other GPUs).
+Export format confirmed: ProRes 422 HQ / yuv422p10le.
+Decoded alpha black and white values confirmed as 0 and 1.
+Mean alpha difference versus the original PyTorch sample at second 5: 0.000596.
+CPU fallback self-check and a 12-frame video export: passed.
+Independent read-only source review found no blocking portability issues.
+
+This is local-machine validation, not a test on the recipient's specific PC.
+The CHECK THIS PC launcher is included for that check.

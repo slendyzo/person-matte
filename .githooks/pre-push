@@ -1,0 +1,8 @@
+#!/bin/sh
+set -eu
+py=$(git config --get personmatte.python || true)
+if [ -z "$py" ]; then
+  echo 'Blocked: configure personmatte.python and run the privacy audit.' >&2
+  exit 1
+fi
+exec "$py" tools/privacy_guard.py

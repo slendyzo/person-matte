@@ -1,0 +1,38 @@
+PERSON MATTE - APPLE SILICON COMPONENTS
+======================================
+
+Python 3.13.18 / python-build-standalone release 20261026
+https://github.com/astral-sh/python-build-standalone
+ARM64 Apple-Darwin install_only_stripped distribution.
+All included Python runtime license files remain in runtime/.
+
+ONNX Runtime 1.23.2
+https://pypi.org/project/onnxruntime/1.23.2/
+Official CPython3.13 ARM64 macOS wheel. The native Mach-O binaries require
+macOS13.4 even though the wheel filename says macosx_13_0.
+License and third-party notices remain under
+runtime/lib/python3.13/site-packages/onnxruntime/.
+
+NumPy2.5.4, coloredlogs15.0.1, humanfriendly10.0, flatbuffers25.12.19,
+packaging26.3, protobuf7.36.2, sympy1.14.0, mpmath1.3.0
+Official PyPI wheels. Licenses and distribution metadata are preserved in
+runtime/lib/python3.13/site-packages/ and its *.dist-info/ directories.
+
+Robust Video Matting / MobileNetV3 FP32 ONNX model release v1.0.0
+https://github.com/PeterL1n/RobustVideoMatting
+GPL-3.0 upstream license: RVM-LICENSE.txt.
+
+FFmpeg9.0.1 / @dfloresc/ffmpeg-macos-lgpl-arm649.0.1-1
+https://github.com/dfloresc/ffmpeg-macos-builds
+https://github.com/dfloresc/ffmpeg-macos-builds/releases/tag/v9.0.1-1
+LGPL2.1-or-later variant, macOS12+ ARM64. The original package, including
+bin/, lib/, BUILDINFO.txt and LICENSES/, is retained in video-tools/.
+The release above supplies the exact sources of every component.
+Do not separate the executable files from their shared libraries.
+
+The Python wrapper source is person_matte.py and is included for inspection.
+No example footage or person imagery is included.
+
+The package was assembled on Windows and has not been executed on a Mac.
+Third-party signatures are preserved where present; the aggregate package
+has not been Developer-ID signed or notarized.

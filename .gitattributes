@@ -1,0 +1,10 @@
+* text=auto
+*.py text eol=lf
+*.sh text eol=lf
+*.command text eol=lf
+.githooks/* text eol=lf
+*.cmd text eol=crlf
+*.png binary
+*.onnx binary
+*.torchscript binary
+outputs/PersonMatte-Windows/licenses/FFmpeg-build.txt -whitespace

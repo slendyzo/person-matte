@@ -1,0 +1,24 @@
+Apple-silicon package / validation scope
+=======================================
+Prepared 28 October 2026 on Windows. NOT executed on macOS.
+
+Verified before packaging:
+- Runtime and npm archive integrity against publisher SHA256/SHA512 metadata.
+- ARM64 or ARM64-capable universal native dependencies.
+- ONNX Runtime min macOS13.4; video tools min macOS12; Python min macOS11.
+- Dynamic-library references resolve to bundled libraries or Apple system paths.
+- Replacement FFmpeg has no nonfree/GPL configuration flags; vendor LGPL
+  notices, BUILDINFO and shared libraries are retained together.
+- ProRes encoder, rawvideo, gray16le and fps-filter names appear in binaries.
+- Shell launcher syntax checked; LF line endings and quoting inspected.
+- Same Python wrapper passed inference, ProRes encode/probe, and 12-frame
+  CPU export tests using Windows-native test dependencies. This does not
+  validate execution of the Mac binaries.
+- Independent static review found no blocking portability issue.
+
+Still requires a real Mac:
+- CHECK THIS MAC.command, native launch, file picker and first-run OS approval.
+- Native performance and optional Core ML behavior.
+
+The package is not Developer-ID signed or notarized. No security settings
+are changed or bypassed by any launcher.

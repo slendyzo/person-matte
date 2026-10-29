@@ -1,0 +1,169 @@
+{
+  "purpose": "Only reviewed source, room-only artwork, and pretrained models. No person media or archives.",
+  "files": {
+    ".gitattributes": {
+      "kind": "text"
+    },
+    ".githooks/pre-commit": {
+      "kind": "text"
+    },
+    ".githooks/pre-push": {
+      "kind": "text"
+    },
+    ".github/workflows/privacy.yml": {
+      "kind": "text"
+    },
+    ".gitignore": {
+      "kind": "text"
+    },
+    "AGENTS.md": {
+      "kind": "text"
+    },
+    "README.md": {
+      "kind": "text"
+    },
+    "outputs/EXTRACT PERSON.cmd": {
+      "kind": "text"
+    },
+    "outputs/OPEN VFX SHOWCASE.cmd": {
+      "kind": "text"
+    },
+    "outputs/PersonMatte-Mac-AppleSilicon/CHECK THIS MAC.command": {
+      "kind": "text"
+    },
+    "outputs/PersonMatte-Mac-AppleSilicon/EXTRACT PERSON.command": {
+      "kind": "text"
+    },
+    "outputs/PersonMatte-Mac-AppleSilicon/README.txt": {
+      "kind": "text"
+    },
+    "outputs/PersonMatte-Mac-AppleSilicon/VALIDATION.txt": {
+      "kind": "text"
+    },
+    "outputs/PersonMatte-Mac-AppleSilicon/licenses/RVM-LICENSE.txt": {
+      "kind": "text"
+    },
+    "outputs/PersonMatte-Mac-AppleSilicon/licenses/THIRD-PARTY.txt": {
+      "kind": "text"
+    },
+    "outputs/PersonMatte-Mac-AppleSilicon/models/rvm_mobilenetv3_fp32.onnx": {
+      "kind": "binary",
+      "sha256": "88d4531297118f595bf2fd60f6f566aec2e559393802d1f436c380f0cbbd2828"
+    },
+    "outputs/PersonMatte-Mac-AppleSilicon/person_matte.py": {
+      "kind": "text"
+    },
+    "outputs/PersonMatte-Windows/CHECK THIS PC.cmd": {
+      "kind": "text"
+    },
+    "outputs/PersonMatte-Windows/EXTRACT - CPU FALLBACK.cmd": {
+      "kind": "text"
+    },
+    "outputs/PersonMatte-Windows/EXTRACT PERSON.cmd": {
+      "kind": "text"
+    },
+    "outputs/PersonMatte-Windows/README.txt": {
+      "kind": "text"
+    },
+    "outputs/PersonMatte-Windows/VALIDATION.txt": {
+      "kind": "text"
+    },
+    "outputs/PersonMatte-Windows/licenses/FFmpeg-GPL.txt": {
+      "kind": "text"
+    },
+    "outputs/PersonMatte-Windows/licenses/FFmpeg-build.txt": {
+      "kind": "text"
+    },
+    "outputs/PersonMatte-Windows/licenses/ONNX-Runtime-LICENSE.txt": {
+      "kind": "text"
+    },
+    "outputs/PersonMatte-Windows/licenses/ONNX-ThirdPartyNotices.txt": {
+      "kind": "text"
+    },
+    "outputs/PersonMatte-Windows/licenses/RVM-LICENSE.txt": {
+      "kind": "text"
+    },
+    "outputs/PersonMatte-Windows/licenses/THIRD-PARTY.txt": {
+      "kind": "text"
+    },
+    "outputs/PersonMatte-Windows/models/rvm_mobilenetv3_fp32.onnx": {
+      "kind": "binary",
+      "sha256": "88d4531297118f595bf2fd60f6f566aec2e559393802d1f436c380f0cbbd2828"
+    },
+    "outputs/PersonMatte-Windows/person_matte.py": {
+      "kind": "text"
+    },
+    "outputs/PersonMatte/AGENTS.md": {
+      "kind": "text"
+    },
+    "outputs/PersonMatte/EXTRACT PERSON.cmd": {
+      "kind": "text"
+    },
+    "outputs/PersonMatte/SHOWCASE.html": {
+      "kind": "text"
+    },
+    "outputs/PersonMatte/depth-showcase/asset-provenance.txt": {
+      "kind": "text"
+    },
+    "outputs/PersonMatte/depth-showcase/depth-room-neon-prompt.txt": {
+      "kind": "text"
+    },
+    "outputs/PersonMatte/depth-showcase/depth-room-neon-v1.png": {
+      "kind": "binary",
+      "sha256": "ef2a67400cb3012f06a9bb7bcfc6599666abd2fe2b526e82e4ab456868c70d10"
+    },
+    "outputs/PersonMatte/depth-showcase/depth-room.png": {
+      "kind": "binary",
+      "sha256": "c302b9c947709082125d4d81ec648ce81217628b92cbcbea6d331f72817dd262"
+    },
+    "outputs/PersonMatte/depth-showcase/imagegen-prompt.txt": {
+      "kind": "text"
+    },
+    "outputs/PersonMatte/models/RVM-LICENSE.txt": {
+      "kind": "text"
+    },
+    "outputs/PersonMatte/models/rvm_mobilenetv3_fp32.torchscript": {
+      "kind": "binary",
+      "sha256": "f01e0c9338b9a6a31b881ea6d4360d70c1e549701b3792e14c9ed88d6196c5a1"
+    },
+    "outputs/PersonMatte/person_matte.py": {
+      "kind": "text"
+    },
+    "privacy-allowlist.json": {
+      "kind": "text"
+    },
+    "tools/privacy_guard.py": {
+      "kind": "text"
+    },
+    "work/build_breakdown.py": {
+      "kind": "text"
+    },
+    "work/mac-downloads/ffmpeg-lgpl.json": {
+      "kind": "text"
+    },
+    "work/mac-downloads/python-assets.json": {
+      "kind": "text"
+    },
+    "work/package_mac.py": {
+      "kind": "text"
+    },
+    "work/package_portable.py": {
+      "kind": "text"
+    },
+    "work/privacy_packaging.py": {
+      "kind": "text"
+    },
+    "work/render_depth_bts.py": {
+      "kind": "text"
+    },
+    "work/render_neon_centered.py": {
+      "kind": "text"
+    },
+    "work/repackage_private.py": {
+      "kind": "text"
+    },
+    "work/test_mac_engine.py": {
+      "kind": "text"
+    }
+  }
+}

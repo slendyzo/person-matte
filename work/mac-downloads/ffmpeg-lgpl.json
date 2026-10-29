@@ -1,0 +1,11 @@
+{
+  "Name": "@dfloresc/ffmpeg-macos-lgpl-arm64",
+  "Version": "9.0.1-1",
+  "URL": "https://registry.npmjs.org/@dfloresc/ffmpeg-macos-lgpl-arm64/-/ffmpeg-macos-lgpl-arm64-9.0.1-1.tgz",
+  "Integrity": "sha512-SSFe4diu+OZjdzF4M+J3Ip1vjR53gVUdawpHnZ5N1+5Sab+VfeJ8rxnEOUe7JfGuv1oSkBhyxY3gDEOQ5010Xg==",
+  "License": "LGPL-2.1-or-later",
+  "Repository": {
+    "url": "git+https://github.com/dfloresc/ffmpeg-macos-builds.git",
+    "type": "git"
+  }
+}
